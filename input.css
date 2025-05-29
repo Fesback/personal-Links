@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Se puede crear breakpoints para reciclar codigo, de igual manera con colores, todo se encuentra en la pagina de tailwind */
+
+/* el @theme no va a poder leer porque no es css valido, lo esencial es crear las asocioasiones en la carpeta vscod/settings.json, crear la asiciacion hara que se ejecute bien sin warnings */
+
+/*
+ se puede hacer esto para que tengamos un html semantico, pero la verdad no me gusta el apply, pero es una buena practica, se puede hacer con el @apply, pero no es necesario, lo mejor es usarlo para clases que se repiten mucho, como por ejemplo un boton o un card, pero no para cada clase que creamos
+
+ 
+.social-buttons{
+    @apply
+} 
+    
+*/
+
+@font-face{
+    font-family: 'Cascadia Code';
+    src: url('/assets/CascadiaCode-VariableFont_wght.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+}
